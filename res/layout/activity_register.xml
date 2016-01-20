@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+      <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/scrollView1"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:paddingLeft="10dp"
+          android:paddingRight="10dp"
+          tools:ignore="ScrollViewSize,ScrollViewCount,HardcodedText" >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Register"
+        android:textColor="#584316"
+        android:textSize="30sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/edtfname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:paddingLeft="10dp" >
+
+          <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtbname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Business Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtBtype"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Business Type"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtpno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edtloc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtuser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:hint="User Name" />
+
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edtcpass"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>
+</ScrollView>

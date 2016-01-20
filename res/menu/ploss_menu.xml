@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/optPloss" android:icon="@drawable/ic_add_account" 
+		android:title="Profit Loss" />
+	
+	<item android:id="@+id/optSearch" android:icon="@drawable/ic_search_transactions"
+		android:title="Search Profit|Loss Report" />
+	 
+    <item android:id="@+id/optStockR" android:icon="@drawable/ic_recent_transactions"
+		android:title="Stock  Report"/>		
+</menu>

@@ -1,0 +1,68 @@
+      <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:id="@+id/scrollView1"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         tools:ignore="ScrollViewSize,ScrollViewCount" >
+      <LinearLayout
+             android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+             <!-- Included header.xml here -->
+	<ViewStub android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout="@layout/header" /> 
+          
+       
+
+<LinearLayout     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    tools:ignore="TextFields,HardcodedText" >
+
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Stock"
+        android:textColor="#584316"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Add New" />
+
+        <Spinner
+            android:id="@+id/textin"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:entries="@array/rows" />
+
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+ </LinearLayout> 
+</LinearLayout>
+</ScrollView>

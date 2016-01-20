@@ -1,0 +1,82 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:ignore="HardcodedText" >
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Remove" />
+
+    <EditText
+        android:id="@+id/item"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/remove"
+        android:background="#584316"
+        android:ems="10"
+        android:hint="Item"
+        android:paddingLeft="5dp"
+        android:textColor="#fff" />
+    <requestFocus />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sellingprice"
+        android:layout_marginTop="21dp"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/sellingprice"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buyingprice"
+        android:layout_marginTop="32dp"
+        android:background="#584316"
+        android:ems="10"
+        android:hint="Selling Price"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:paddingLeft="5dp"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/buyingprice"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/quantity"
+        android:layout_marginTop="30dp"
+        android:background="#584316"
+        android:ems="10"
+        android:hint="Buying Price"
+        android:inputType="number|numberSigned|numberDecimal"
+        android:paddingLeft="5dp"
+        android:textColor="#fff" >
+        
+    </EditText>
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/item"
+        android:layout_marginTop="28dp"
+        android:background="#584316"
+        android:ems="10"
+        android:hint="Quantity"
+        android:inputType="number|numberDecimal"
+        android:paddingLeft="5dp"
+        android:textColor="#fff" />
+
+</RelativeLayout>

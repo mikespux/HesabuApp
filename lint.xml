@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi" severity="ignore" />
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/hesabu/ListPLoss.java" />
+        <ignore path="src/com/hesabu/ListProfitLoss.java" />
+    </issue>
+</lint>

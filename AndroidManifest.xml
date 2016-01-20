@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hesabuapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8"
+        />
+      <uses-permission 
+        android:name="android.permission.SEND_SMS"/>
+      <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.hesabu.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.hesabu.FeedbackActivity"
+            android:label="@string/app_name" >
+        </activity>
+           <activity
+            android:name="com.hesabu.Login"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.hesabu.AddBuy"
+            android:label="@string/app_name" >
+        </activity>
+          
+           <activity
+            android:name="com.hesabu.ListTransactions"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.hesabu.SearchTransactions"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.hesabu.SearchPLoss"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.hesabu.AddSales"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.ListRecentPurchases"
+            android:label="@string/app_name" >
+        </activity>
+           <activity
+            android:name="com.hesabu.ListRecentSales"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.ListProfitLoss"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.TransactionDetails"
+            android:label="@string/app_name" >
+        </activity>
+           <activity
+            android:name="com.hesabu.TransactionDetailsSale"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.UpdateStock"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.UpdateUser"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.UpdatePass"
+            android:label="@string/app_name" >
+        </activity>
+              <activity
+            android:name="com.hesabu.UpdateExpense"
+            android:label="@string/app_name" >
+        </activity>
+               <activity
+            android:name="com.hesabu.UpdateALert"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.hesabu.HomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.hesabu.RegisterActivity"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.hesabu.ListPLoss"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.Activity_AddStock"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.hesabu.Activity_ListStock"
+            android:label="@string/app_name" >
+        </activity>
+           <activity
+            android:name="com.hesabu.Activity_ListExpense"
+            android:label="@string/app_name" >
+        </activity>
+             <activity
+            android:name="com.hesabu.Activity_ListAlert"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.hesabu.Activity_Expense"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.hesabu.Activity_Production"
+            android:label="@string/app_name" >
+        </activity>
+           <activity
+            android:name="com.hesabu.Activity_ListProduction"
+            android:label="@string/app_name" >
+        </activity>
+               <activity
+            android:name="com.hesabu.UpdateProduction"
+            android:label="@string/app_name" >
+        </activity>
+        
+                <activity
+            android:name="com.hesabu.Activity_ALert"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.hesabu.Activity_ProfitLoss"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.hesabu.Activity_Advise"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.hesabu.Activity_Logout"
+            android:label="@string/app_name" >
+        </activity>
+        
+           <activity
+            android:name="com.hesabu.StockMenu"
+            android:label="@string/app_name" >
+        </activity>
+          <activity
+            android:name="com.hesabu.RecentTransMenu"
+            android:label="@string/app_name" >
+        </activity>
+           <activity
+            android:name="com.hesabu.ExpenseMenu"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.hesabu.ProductionMenu"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.SearchMenu"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.hesabu.UserMenu"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    tools:ignore="InefficientWeight,NestedWeights" >
+
+    <!-- Included header.xml here -->
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="560dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#584316"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/addstock"
+                style="@style/HomeButton"
+                android:background="#584316"
+                android:drawableTop="@drawable/addstock"
+                android:onClick="onButtonClicker"
+                android:text="@string/stock_management"
+                android:textColor="#fff" />
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="#fff" >
+            </LinearLayout>
+
+   
+
+            <Button
+                android:id="@+id/sales"
+                style="@style/HomeButton"
+                android:background="#eee"
+                android:drawableTop="@drawable/recent"
+                android:onClick="onButtonClicker"
+                android:text="@string/recent_transac"
+                android:textColor="#584316" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_weight="0"
+            android:background="#fff"
+            android:orientation="horizontal"
+            tools:ignore="NestedWeights" >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#584316"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/expense"
+                style="@style/HomeButton"
+                android:layout_height="wrap_content"
+                android:background="#eee"
+                android:drawableTop="@drawable/expert"
+                android:onClick="onButtonClicker"
+                android:text="@string/expense_man"
+                android:textColor="#584316" />
+
+ 
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="#fff" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/listexpenses"
+                style="@style/HomeButton"
+                android:background="#584316"
+                android:drawableTop="@drawable/listexpense"
+                android:onClick="onButtonClicker"
+                android:text="@string/production_cost"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_weight="0"
+            android:background="#fff"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#584316"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/profitloss"
+                style="@style/HomeButton"
+                android:background="#584316"
+                android:drawableTop="@drawable/profit"
+                android:onClick="onButtonClicker"
+                android:text="@string/profit_loss"
+                android:textColor="#fff" />
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="#fff" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/searchtrans"
+                style="@style/HomeButton"
+                android:background="#eee"
+                android:drawableTop="@drawable/search"
+                android:onClick="onButtonClicker"
+                android:text="@string/Search_trans"
+                android:textColor="#584316" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_weight="0"
+            android:background="#fff"
+            android:orientation="horizontal" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#584316"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/userinfo"
+                style="@style/HomeButton"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:background="#eee"
+                android:drawableTop="@drawable/profile"
+                android:onClick="onButtonClicker"
+                android:text="@string/user_profile"
+                android:textColor="#584316" />
+
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="#e6eded" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Logout"
+                style="@style/HomeButton"
+                android:background="#584316"
+                android:drawableTop="@drawable/logout"
+                android:onClick="onButtonClicker"
+                android:text="@string/JellyBeanActivityTitle"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+   

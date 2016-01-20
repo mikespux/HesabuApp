@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/optExpense" android:icon="@drawable/ic_add_account" 
+		android:title="Add Stock" />
+	
+	<item android:id="@+id/optListExpense" android:icon="@drawable/ic_add_transaction"
+		android:title="List Stock" />
+	 
+    <item android:id="@+id/optRecentSales" android:icon="@drawable/ic_recent_transactions"
+		android:title="Recent Sales"/>
+    <item android:id="@+id/optRecentPurchase" android:icon="@drawable/ic_recent_transactions"
+		android:title="Recent Purchases"/>	
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/optUin" 
+		android:title="Update Userinfo" />
+	
+	<item android:id="@+id/optPass"
+		android:title="Update Password" />
+	 
+		
+</menu>

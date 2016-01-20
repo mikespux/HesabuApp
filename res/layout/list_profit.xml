@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <com.hesabu.VerticalScrollview xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:id="@+id/scrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+         tools:ignore="HardcodedText,DuplicateIds" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/heading"
+        style="@style/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingTop="10dp"
+        android:text="Ben&apos;s Shop profit and loss  For 2nd June 2, 2015"
+        android:textColor="#1861e7"
+        android:textSize="16sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txtInc"
+        style="@style/error"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="Income"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingLeft="10dp"
+              android:paddingRight="5dp"
+              android:paddingTop="20dp" >
+
+                <com.hesabu.ListScrollview
+                  android:id="@+id/listTransactions"
+                  android:layout_width="match_parent"
+                  android:layout_height="150dp"
+                  tools:ignore="NestedScrolling" />
+
+ <TextView
+     android:id="@+id/txtInc"
+     style="@style/error"
+     android:layout_width="140dp"
+     android:layout_height="0dp"
+     android:layout_gravity="left"
+     android:layout_weight="1"
+     android:gravity="left"
+     android:marqueeRepeatLimit="marquee_forever"
+     android:paddingLeft="5dp"
+     android:text="Production Cost:"
+     android:textColor="#000"
+     android:textStyle="bold"
+     android:visibility="visible" />
+
+                 <com.hesabu.ListScrollview
+                     android:id="@+id/listProduction"
+                     android:layout_width="match_parent"
+                     android:layout_height="100dp"
+                     tools:ignore="NestedScrolling" />
+
+                <TableLayout
+                    android:id="@+id/TableLayout04"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#cfcfcf"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <TableRow
+                        android:id="@+id/TableRow04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="UselessParent" >
+
+                        <TextView
+                            android:id="@+id/txtCOS"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#ffff"
+                            android:gravity="left"
+                            android:text="Sales Total:"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtSale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:text="Total Sales"
+                            android:textColor="#1861e7"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+                </TableLayout>
+
+              <TableLayout
+                  android:id="@+id/tableLayout2"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#fff"
+                  android:paddingBottom="5dp"
+                  android:paddingTop="5dp" >
+
+                  <TableRow
+                      android:id="@+id/tableRow2"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="#cfcfcf"
+                      tools:ignore="UselessParent" >
+
+                      <TextView
+                          android:id="@+id/todate"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:background="#fff"
+                          android:gravity="left"
+                          android:text="Cost of Sales:"
+                          android:textColor="#000"
+                          android:textStyle="bold" />
+
+                      <TextView
+                          android:id="@+id/gross"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:background="#fff"
+                          android:gravity="center"
+                          android:text="0.0"
+                          android:textColor="#ff0000"
+                          android:textStyle="bold" />
+
+                  </TableRow>
+
+              </TableLayout>
+
+              <TableLayout
+                  android:id="@+id/tableLayout2"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#cfcfcf"
+                  android:paddingBottom="5dp"
+                  android:paddingTop="5dp" >
+
+                  <TableRow
+                      android:id="@+id/TableRow06"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="#cfcfcf"
+                      tools:ignore="UselessParent" >
+
+                      <TextView
+                          android:id="@+id/TextView01"
+                          style="@style/error"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:background="#fff"
+                          android:gravity="left"
+                          android:text="Purchases:     "
+                          android:textColor="#000"
+                          android:textSize="14sp"
+                          android:textStyle="bold"
+                          android:typeface="normal"
+                          android:visibility="visible" />
+
+                      <TextView
+                          android:id="@+id/solditems"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:background="#fff"
+                          android:gravity="center"
+                          android:text="0.0"
+                          android:textColor="#000"
+                          android:textStyle="bold" />
+
+                  </TableRow>
+              </TableLayout>
+
+              <TableLayout
+                  android:id="@+id/TableLayout05"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="#fff"
+                  android:paddingBottom="5dp"
+                  android:paddingTop="5dp" >
+
+                  <TableRow
+                      android:id="@+id/TableRow05"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:background="#cfcfcf"
+                      tools:ignore="UselessParent" >
+
+                      <TextView
+                          android:id="@+id/TextView02"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:background="#fff"
+                          android:gravity="left"
+                          android:text="Gross Profit/ Loss:"
+                          android:textColor="#000"
+                          android:textStyle="bold" />
+
+                      <TextView
+                          android:id="@+id/CSales"
+                          style="@style/error"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:background="#fff"
+                          android:text="other expense"
+                          android:textColor="#000"
+                          android:textSize="14sp"
+                          android:textStyle="bold"
+                          android:typeface="normal" />
+                  </TableRow>
+              </TableLayout>
+
+          </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:paddingLeft="10dp"
+           android:paddingRight="5dp" >
+
+           <TableLayout
+               android:id="@+id/TableLayout03"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#ffffff"
+               android:paddingBottom="5dp"
+               android:paddingTop="5dp" >
+
+               <TableRow
+                   android:id="@+id/TableRow03"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   tools:ignore="UselessParent" >
+
+                   <TextView
+                       android:id="@+id/txtExp"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="left"
+                       android:layout_weight="1"
+                       android:gravity="left"
+                       android:paddingLeft="10dp"
+                       android:text="Expenditure"
+                       android:textColor="#ff0000"
+                       android:textSize="16sp"
+                       android:textStyle="bold|italic"
+                       android:typeface="sans" />
+
+                   <TextView
+                       android:id="@+id/TextView03"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:gravity="center"
+                       android:text="     "
+                       android:textColor="#ff00"
+                       android:textStyle="bold" />
+               </TableRow>
+           </TableLayout>
+    
+  <com.hesabu.ListScrollview
+      android:id="@+id/listExpenses"
+      android:layout_width="match_parent"
+      android:layout_height="150dp" />
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent" >
+
+            <TextView
+                android:id="@+id/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Total Expenses:   "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/totalexp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0.0"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableLayout
+            android:id="@+id/TableLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cfcfcf"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <TableRow
+                android:id="@+id/TableRow02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:ignore="UselessParent" >
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Net Profit/Loss:"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/netprofit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0.0"
+                    android:textColor="#ff0000"
+                    android:textStyle="bold" />
+
+            </TableRow>
+        </TableLayout>
+
+    </TableLayout>
+
+    </LinearLayout>
+          
+
+    <TextView
+        android:id="@+id/textError"
+        style="@style/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorry! No Transactions Found!"
+        android:visibility="invisible" />
+
+</LinearLayout>
+</com.hesabu.VerticalScrollview>

@@ -1,0 +1,58 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ObsoleteLayoutParam,HardcodedText" >
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <EditText
+            android:id="@+id/item"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="#584316"
+            android:ems="10"
+            android:hint="Name"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:background="#584316"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="number"
+            android:paddingLeft="5dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:text="Save" />
+
+    </LinearLayout>
+
+    <requestFocus />
+
+</LinearLayout>

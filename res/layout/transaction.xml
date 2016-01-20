@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/textTransId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="invisible" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/common.heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name." />
+
+            <TextView
+                android:id="@+id/textAcno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="acno" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/common.heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date" />
+
+            <TextView
+                android:id="@+id/textTransDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="transdate" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/common.heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buying price" />
+
+            <TextView
+                android:id="@+id/textTransDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:text="Details" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/common.heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type" />
+
+            <TextView
+                android:id="@+id/textTransType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Type" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/common.heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity" />
+
+            <TextView
+                android:id="@+id/textTransAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="amount" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                style="@style/common.heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount" />
+
+            <TextView
+                android:id="@+id/textTransRemarks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="remarks" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

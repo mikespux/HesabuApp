@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix,HardcodedText,ContentDescription" >
+
+    <ViewStub
+        android:id="@+id/vsHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/header"
+        android:layout="@layout/header" />
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="From Date :" />
+
+            <EditText
+                android:id="@+id/editFromDate"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:inputType="date" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/buttonFromDateDialog"
+                android:layout_marginLeft="5dp"
+                android:onClick="showFromDateDialog"
+                android:src="@drawable/datepicker" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To Date :" />
+
+            <EditText
+                android:id="@+id/editToDate"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:inputType="date" />
+
+            <ImageButton
+                android:id="@+id/buttonToDateDialog"
+                android:layout_marginLeft="5dp"
+                android:onClick="showToDateDialog"
+                android:src="@drawable/datepicker" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name:" />
+
+            <Spinner
+                android:id="@+id/editFromAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:prompt="@string/accountsprompt" >
+
+                </Spinner>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type :" />
+
+            <Spinner
+                android:id="@+id/editToAmount"
+                android:layout_width="120dip"
+                android:layout_height="wrap_content"
+                android:entries="@array/type"
+                android:prompt="@string/accountstype" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:onClick="searchTransactions"
+            android:text="Search" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:onClick="clearFields"
+            android:text="Clear" />
+    </LinearLayout>
+
+</LinearLayout>

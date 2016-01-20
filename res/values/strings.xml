@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+    <string name="app_name">Hesabu</string>   
+    
+    <!-- Activity Titles -->
+    <string name="HomeActivityTitle">Hesabu App | Profit | Loss | Expenses</string>
+    <string name="FeedbackActivityTitle">Feedback</string>
+    <string name="EclairActivityTitle">Add Stock</string>
+    <string name="Search">Search Transactions</string>
+    <string name="SearchPL">Search Profit|Loss</string>
+    <string name="Buy">Buy Product</string>
+    <string name="Sell">Sell Product</string>
+    <string name="Expense">Expense</string>
+    <string name="transactions">Transactions</string>
+    <string name="FroyoActivityTitle">List Stock</string>
+    <string name="GingerbreadActivityTitle">Add Sales</string>
+    <string name="HoneycombActivityTitle">Profit|Loss</string>
+    <string name="ICSActivityTitle">Expense</string>
+    <string name="JellyBeanActivityTitle">Logout</string>    
+     <string name="accountsprompt">Select Product</string>
+     <string name="accountstype">Select Type</string>
+     <string name="accountsqty">Select Quantity</string>
+     
+     <!-- SERVER CONNECT API -->
+    
+    <string name="getUsers_url">http://wascakenya.co.ke/synchesabu/getusers.php</string>
+    <string name="updatesyncUser_url">http://wascakenya.co.ke/synchesabu/updatesyncsts.php</string>
+    <string name="registerUsers_url">http://wascakenya.co.ke/synchesabu/getusers.php</string>
+    
+    <string name="getStock_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+    <string name="updatesyncStock_url">http://wascakenya.co.ke/synchesabu/updatesyncsts.php</string>
+    <string name="insertStock_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+    
+    <string name="getSales_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+      <string name="updatesyncSales_url">http://wascakenya.co.ke/synchesabu/updatesyncsts.php</string>
+    <string name="insertSales_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+    
+    <string name="getPurchases_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+    <string name="updatesyncPurchases_url">http://wascakenya.co.ke/synchesabu/updatesyncsts.php</string>
+    <string name="insertPurchases_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+    
+    <string name="getExpenses_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+    <string name="updatesyncExpenses_url">http://wascakenya.co.ke/synchesabu/updatesyncsts.php</string>
+    <string name="insertExpenses_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+    
+    <string name="getProductionCost_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+      <string name="updatesyncPcost_url">http://wascakenya.co.ke/synchesabu/updatesyncsts.php</string>
+    <string name="insertProductionCost_url">http://wascakenya.co.ke/synchesabu/getstock.php</string>
+   
+    <!-- END -->
+       
+    <string-array name="rows">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>           
+    </string-array>
+       <string-array name="select">
+        <item>select</item>
+                   
+    </string-array>
+        <string-array name="num">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>11</item>  
+        <item>12</item> 
+        <item>13</item> 
+        <item>14</item> 
+        <item>15</item> 
+        <item>16</item>
+        <item>17</item> 
+        <item>18</item>
+        <item>19</item> 
+        <item>20</item>                  
+    </string-array>
+        <string-array name="type">
+        <item>Buying</item>
+        <item>Selling</item>
+          
+       
+    </string-array>
+    
+        <string name="sales">Sale Product</string>
+    
+        <string name="ben_apos_s_shop_profit_and_loss_for_2nd_june_2_2015">Ben&amp;apos;s Shop profit and loss  For 2nd June 2, 2015</string>
+    
+        <string name="buy_product">Buy Product</string>
+    
+        <string name="recent_purchases">Recent Purchases</string>
+    
+        <string name="recent_sales">Recent Sales</string>
+    
+        <string name="expense">Expense</string>
+    
+        <string name="user_info">User Info</string>
+    
+        <string name="search_p_l">Search P/L</string>
+    
+        <string name="stock_management">Stock Management</string>
+    
+        <string name="recent_transac">Recent Transactions</string>
+    
+        <string name="expense_man">Expense Management</string>
+    
+        <string name="production_cost">Production Cost</string>
+    
+        <string name="profit_loss">Profit and Loss</string>
+    
+        <string name="Search_trans">Search Transactions</string>
+    
+        <string name="user_profile">User Profile</string>
+    
+        <string name="add_stock">Add Stock</string>
+    
+        <string name="liststock">List Stock</string>
+    
+        <string name="buy_prod">Buy Product</string>
+    
+        <string name="sell_prod">Sell Product</string>
+    
+        <string name="stock_menu"><u>Stock Management</u></string>
+    
+        <string name="recent_trans"><u>Recent Transactions</u></string>
+    
+        <string name="recent_sale">Recent Sales</string>
+    
+        <string name="recent_purc">Recent Purchases</string>
+    
+        <string name="expense_management"><u>Expense Management</u></string>
+    
+        <string name="add_expense">Add Expense</string>
+    
+        <string name="list_expense">List Expense</string>
+    
+        <string name="p_cost"><u>Production Cost</u></string>
+    
+        <string name="add_pcost">Add Production Cost</string>
+    
+        <string name="list_pcost">List Production Cost</string>
+    
+        <string name="search_tran"><u>Search Transactions</u></string>
+    
+        <string name="searcht">Search Transactions</string>
+    
+        <string name="searchpl">Search Profit Loss</string>
+    
+        <string name="userm"><u>User Menu</u></string>
+    
+        <string name="userin">User Info</string>
+    
+        <string name="changepass">Change Password</string>
+    
+        <string name="totalP">Total Production Cost</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/optBp" android:icon="@drawable/ic_add_account" 
+		android:title="Buy Product" />
+	
+	<item android:id="@+id/optListExpense" android:icon="@drawable/ic_add_transaction"
+		android:title="Add Alert" />
+    <item android:id="@+id/optListAlert" android:icon="@drawable/ic_add_transaction"
+		android:title="List Alert" />
+</menu>
