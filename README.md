@@ -6,9 +6,8 @@ HesabuApp is a simple and easy inventory management app for small SMEs. It basic
 <p align="center">
 <img src="Screenshot1.png" width="30%">
 <img src="Screenshot2.png" width="30%">
-
 <img src="Screenshot3.png" width="30%">
-<img src="Screenshot4.png" width="30%">
+
 </p>
 
    
